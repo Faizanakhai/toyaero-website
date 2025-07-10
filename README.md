@@ -13,9 +13,9 @@ ToyAero is a modern and interactive product showcase website for a vintage-inspi
 
 | Home Page with 3D Toggle | Features Section | Purchase Section |
 |--------------------------|------------------|------------------|
-| ![Home](screenshots/home.png) | ![Features](screenshots/features.png) | ![Purchase](screenshots/purchase.png) |
+| ![Home](screenshots/Home.png) | ![Features](screenshots/Features.png) | ![Purchase](screenshots/Purchase.png) |
 
-> 📂 Place screenshots inside a `/screenshots` folder in your repo root.
+> 📂 Place screenshots inside a `/public/screenshots` folder in your repo root.
 
 ---
 
@@ -63,21 +63,6 @@ ToyAero is a modern and interactive product showcase website for a vintage-inspi
   /screenshots         # Screenshots for README
   /vintage_toy_airplane.glb
   /plane-static.png
-```bash
-/src
-  /app
-    page.jsx         # HomePage with Hero
-    purchase.jsx     # Purchase page section
-  /components
-    Navbar.jsx
-    Footer.jsx
-    Hero.jsx
-    ModelStickyRight.jsx
-    FeaturesSection.jsx
-/public
-  /screenshots       # Add images for README
-  /vintage_toy_airplane.glb
-  /plane-static.png
 ```
 
 ---
@@ -102,10 +87,3 @@ Deploy this project in 1 click on [Vercel](https://vercel.com/):
 vercel
 ```
 Or connect your GitHub repo to Vercel’s dashboard.
-
----
-
-
-
-## 📄 License
-This project is built for educational and portfolio purposes. You are free to fork or modify it.
