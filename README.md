@@ -47,6 +47,25 @@ ToyAero is a modern and interactive product showcase website for a vintage-inspi
 ```bash
 /src
   /app
+    /features
+      page.jsx         # Features page
+    /purchase
+      page.jsx         # Purchase page
+    layout.jsx         # Root layout with Navbar/Footer
+    page.jsx           # Home page (Hero section)
+  /components
+    Navbar.jsx
+    Footer.jsx
+    Hero.jsx
+    ModelStickyRight.jsx
+    FeaturesSection.jsx
+/public
+  /screenshots         # Screenshots for README
+  /vintage_toy_airplane.glb
+  /plane-static.png
+```bash
+/src
+  /app
     page.jsx         # HomePage with Hero
     purchase.jsx     # Purchase page section
   /components
