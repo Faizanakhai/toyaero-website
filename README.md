@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✈️ ToyAero – Interactive 3D Toy Plane Website
 
-## Getting Started
+ToyAero is a modern and interactive product showcase website for a vintage-inspired toy airplane. Built with **Next.js**, **Tailwind CSS**, and **Three.js**, it provides a 3D model viewer, responsive UI, feature highlights, and a purchase section – all crafted with clean animations and styling.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+> Coming soon – link to your Vercel/GitHub Pages deployment here.
+
+---
+
+## 📸 Screenshots
+
+| Home Page with 3D Toggle | Features Section | Purchase Section |
+|--------------------------|------------------|------------------|
+| ![Home](screenshots/home.png) | ![Features](screenshots/features.png) | ![Purchase](screenshots/purchase.png) |
+
+> 📂 Place screenshots inside a `/screenshots` folder in your repo root.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **3D Rendering**: [Three.js](https://threejs.org/) + [@react-three/fiber](https://docs.pmnd.rs/react-three-fiber/)
+- **Interactivity**: React, useRef, useState
+- **Deployment**: [Vercel](https://vercel.com/) *(recommended)*
+
+---
+
+## ✨ Features
+
+- Interactive 3D Model of Toy Plane (GLB format)
+- Toggle between static image and 3D view
+- Smooth OrbitControls with auto-reset
+- Responsive Layout (Mobile + Desktop)
+- Styled Navigation Bar & Sticky Footer
+- Feature Highlights Grid
+- Purchase CTA section
+- Clean, maintainable, and fully commented code
+
+---
+
+## 📁 Folder Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/src
+  /app
+    page.jsx         # HomePage with Hero
+    purchase.jsx     # Purchase page section
+  /components
+    Navbar.jsx
+    Footer.jsx
+    Hero.jsx
+    ModelStickyRight.jsx
+    FeaturesSection.jsx
+/public
+  /screenshots       # Add images for README
+  /vintage_toy_airplane.glb
+  /plane-static.png
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧪 Setup & Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/yourusername/toyaero-website.git
+cd toyaero-website
+npm install
+npm run dev
+```
 
-## Learn More
+Then visit: [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Deployment
+Deploy this project in 1 click on [Vercel](https://vercel.com/):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+vercel
+```
+Or connect your GitHub repo to Vercel’s dashboard.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📄 License
+This project is built for educational and portfolio purposes. You are free to fork or modify it.
