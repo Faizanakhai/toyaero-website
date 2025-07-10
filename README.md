@@ -14,9 +14,6 @@ ToyAero is a modern and interactive product showcase website for a vintage-inspi
 | Home Page with 3D Toggle | Features Section | Purchase Section |
 |--------------------------|------------------|------------------|
 | ![Home](public/screenshots/Home.png) | ![Features](public/screenshots/Features.png) | ![Purchase](public/screenshots/Purchase.png) |
-
-> 📂 Place screenshots inside a `/public/screenshots` folder in your repo root.
-
 ---
 
 ## 🛠️ Tech Stack
